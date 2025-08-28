@@ -305,6 +305,7 @@ html:not(.dark) .td-loading-v2 {
 
 .td-loading-v2 img {
     margin-right: 20px;
+    background: #fff;
     box-shadow: 0 0 5px #6e6e6eb6;
     height: 85px;
     width: 85px;
@@ -673,7 +674,7 @@ html:not(.dark) .ws-loader-text h4 {
     height: 8rem;
     box-shadow: 0 0 15px #d3d3d3ad;
     border-radius: 50%;
-    background: rgb(32 53 104 / 90%);
+    background: #fff);
 }
 
 .td-lock-screen .infos .web-title {
@@ -877,5 +878,6 @@ html:not(.dark) .close-btn {
     object-fit: cover;
 
 }
+
 
 
