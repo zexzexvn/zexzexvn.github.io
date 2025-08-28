@@ -674,7 +674,7 @@ html:not(.dark) .ws-loader-text h4 {
     height: 8rem;
     box-shadow: 0 0 15px #d3d3d3ad;
     border-radius: 50%;
-    background: #fff);
+    background: #fff;
 }
 
 .td-lock-screen .infos .web-title {
@@ -878,6 +878,7 @@ html:not(.dark) .close-btn {
     object-fit: cover;
 
 }
+
 
 
 
