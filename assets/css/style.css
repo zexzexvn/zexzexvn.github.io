@@ -87,7 +87,7 @@ body.loading {
 }
 
 html {
-    font-family: Satoshi, sans-serif;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 html.dark {
@@ -876,3 +876,4 @@ html:not(.dark) .close-btn {
     object-fit: cover;
 
 }
+
