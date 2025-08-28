@@ -677,6 +677,7 @@ html:not(.dark) .ws-loader-text h4 {
 }
 
 .td-lock-screen .infos .web-title {
+    text-align: center;
     font-size: 2rem;
     color: #fff;
     text-shadow: 1px 1px 8px rgb(32 53 104 / 90%);
@@ -876,4 +877,5 @@ html:not(.dark) .close-btn {
     object-fit: cover;
 
 }
+
 
