@@ -91,9 +91,9 @@ html {
 }
 
 html.dark {
-    color-scheme: dark;
-    --scrollbar-bg: #2e2e2e;
-    --scrollbar-thumb-bg: #4e4e4e;
+    color-scheme: light;
+    --scrollbar-bg: #fff;
+    --scrollbar-thumb-bg: #fff;
 }
 
 body {
@@ -878,6 +878,7 @@ html:not(.dark) .close-btn {
     object-fit: cover;
 
 }
+
 
 
 
