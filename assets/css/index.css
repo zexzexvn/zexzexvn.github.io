@@ -37,7 +37,12 @@ solid
 ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia:
 ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint:
 ;--tw-contain-style:
-}.mathit,.katex
+}body{line-height:inherit;--tw-bg-opacity:1;background-color:hsl(var(--background)
+/ var(--tw-bg-opacity));--tw-text-opacity:1;color:hsl(var(--foreground) /
+var(--tw-text-opacity))}hr{height:0;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline
+dotted;text-decoration:underline
+dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{text-decoration:inherit;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke}b,strong{font-weight:bolder}code,kbd,pre,samp{font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.prose,.prose-base{font-size:1rem;line-height:1.75}.italic,.katex
+.mathit,.katex
 .textit{font-style:italic}summary{display:list-item}menu,ol,ul{list-style:none}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}.cursor-pointer,[role=button],button{cursor:pointer}.cursor-default,:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}.line-clamp-1,.line-clamp-2{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}:root{--background:210
 33% 99%;--foreground:240 10% 3.9%;--card:0 0% 100%;--card-foreground:240 10%
 3.9%;--popover:0 0% 100%;--popover-foreground:240 10% 3.9%;--primary:200 29%
@@ -391,7 +396,9 @@ var(--tw-border-opacity))}.border-input{--tw-border-opacity:1;border-color:hsl(v
 /
 var(--tw-border-opacity))}.border-muted-foreground{--tw-border-opacity:1;border-color:hsl(var(--muted-foreground)
 /
-var(--tw-border-opacity))}.border-transparent{border-color:transparent}.bg-border,.hover\:bg-border:hover{--tw-bg-opacity:1;background-color:hsl(var(--border)
+var(--tw-border-opacity))}.border-transparent{border-color:transparent}.\[\&\.not-top\]\:bg-background.not-top,.bg-background{--tw-bg-opacity:1;background-color:hsl(var(--background)
+/
+var(--tw-bg-opacity))}.bg-border,.hover\:bg-border:hover{--tw-bg-opacity:1;background-color:hsl(var(--border)
 /
 var(--tw-bg-opacity))}.bg-foreground{--tw-bg-opacity:1;background-color:hsl(var(--foreground)
 / var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243
@@ -846,3 +853,19 @@ svg.octicon{margin-right:8px!important;margin-right:var(--base-size-8,8px)!impor
 .markdown-alert-title{color:var(--color-done-fg);color:var(--fgColor-done,var(--color-done-fg))}.markdown-alert.markdown-alert-warning{border-left-color:var(--borderColor-attention-emphasis,var(--color-attention-emphasis))}.markdown-alert.markdown-alert-warning
 .markdown-alert-title{color:var(--color-attention-fg);color:var(--fgColor-attention,var(--color-attention-fg))}.markdown-alert.markdown-alert-caution{border-left-color:var(--borderColor-danger-emphasis,var(--color-danger-emphasis))}.markdown-alert.markdown-alert-caution
 .markdown-alert-title{color:var(--color-danger-fg);color:var(--fgColor-danger,var(--color-danger-fg))}
+
+
+/* Background mặc định cho máy tính */
+body {
+    background-image: url('https://cdn2.fptshop.com.vn/unsafe/800x0/hinh_nen_shin_10_0da7ea5ec7.png'); /* Hình nền cho máy tính */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Background cho thiết bị di động */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url('https://i.pinimg.com/736x/61/9e/1a/619e1a8556b54b7a5b1622cc3382dbdb.jpg'); /* Hình nền cho điện thoại */
+    }
+}
