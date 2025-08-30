@@ -25,23 +25,6 @@
             
     </head>
     <body>
- <style>
-        /* Background mặc định cho máy tính */
-body {
-    background-image: url('https://cdn2.fptshop.com.vn/unsafe/800x0/hinh_nen_shin_10_0da7ea5ec7.png'); /* Hình nền cho máy tính */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-/* Background cho thiết bị di động */
-@media only screen and (max-width: 768px) {
-    body {
-        background-image: url('https://i.pinimg.com/736x/61/9e/1a/619e1a8556b54b7a5b1622cc3382dbdb.jpg'); /* Hình nền cho điện thoại */
-    }
-}
-    </style>
-    </body>
         <div class="flex justify-center bg-background">
             <div class="pace pace-active">
                 <div class="pace-progress">
@@ -86,7 +69,7 @@ body {
                             </h1>
                             <div class="flex gap-x-4 sm:gap-x-6">
                                 <div class="flex gap-x-4 transition-all group-[.not-top]:me-1.5 group-[.not-top]:gap-x-2">
-                                    <button class="change-theme group/dark rounded-md p-2 transition-all sm:group-[.not-top]:rounded-xl">
+                                    <button class="change-theme group/light rounded-md p-2 transition-all sm:group-[.not-top]:rounded-xl">
                                         <i class="ri-sun-line transition-all group-hover/dark:text-primary dark:hidden"></i>
                                         <i class="ri-moon-clear-line hidden transition-all group-hover/dark:text-primary dark:block"></i>
                                     </button>
@@ -387,6 +370,7 @@ shortcut.add("Ctrl+P",function(){top.location.href="/"}),
 shortcut.add("Ctrl+Shift+C",function(){top.location.href="/"});
 //]]>
 </script> 
+
 
 
 
