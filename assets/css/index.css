@@ -853,19 +853,3 @@ svg.octicon{margin-right:8px!important;margin-right:var(--base-size-8,8px)!impor
 .markdown-alert-title{color:var(--color-done-fg);color:var(--fgColor-done,var(--color-done-fg))}.markdown-alert.markdown-alert-warning{border-left-color:var(--borderColor-attention-emphasis,var(--color-attention-emphasis))}.markdown-alert.markdown-alert-warning
 .markdown-alert-title{color:var(--color-attention-fg);color:var(--fgColor-attention,var(--color-attention-fg))}.markdown-alert.markdown-alert-caution{border-left-color:var(--borderColor-danger-emphasis,var(--color-danger-emphasis))}.markdown-alert.markdown-alert-caution
 .markdown-alert-title{color:var(--color-danger-fg);color:var(--fgColor-danger,var(--color-danger-fg))}
-
-
-/* Background mặc định cho máy tính */
-body {
-    background-image: url('https://cdn2.fptshop.com.vn/unsafe/800x0/hinh_nen_shin_10_0da7ea5ec7.png'); /* Hình nền cho máy tính */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-/* Background cho thiết bị di động */
-@media only screen and (max-width: 768px) {
-    body {
-        background-image: url('https://i.pinimg.com/736x/61/9e/1a/619e1a8556b54b7a5b1622cc3382dbdb.jpg'); /* Hình nền cho điện thoại */
-    }
-}
